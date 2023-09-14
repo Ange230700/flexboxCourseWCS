@@ -8,28 +8,27 @@ body {
   min-height: 100vh;
 }
 
-.header {
+.bloc-container {
+  /* border: 1px solid black;
+  height: 200px; */
+  display: flex;
+  /* justify-content: space-around;
+  align-items: center; */
+}
+
+.blocs {
+  width: 100%;
   height: 100px;
-  background-color: lavender;
-  padding: auto;
 }
 
-.container {
-  height: 300px;
-  background-color: burlywood;
-  float: left;
-  width: 75%;
+.bg-peru {
+  background-color: peru;
 }
 
-.recommendation {
-  height: 300px;
-  background-color: lightcoral;
-  float: right;
-  width: 25%;
+.bg-turquoise {
+  background-color: paleturquoise;
 }
 
-footer {
-  height: 100px;
-  background-color: lightgreen;
-  clear: both;
+.bg-violetred {
+  background-color: palevioletred;
 }
